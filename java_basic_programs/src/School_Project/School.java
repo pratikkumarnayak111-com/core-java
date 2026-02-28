@@ -11,7 +11,7 @@ public class School implements Serializable{
 	private String Address;
 	transient long Spassword;
 	
-public School() {
+/*public School() {
 		
 	}
 	public School(String sname, int sno, String sFname, String address, long spassword) {
@@ -21,6 +21,9 @@ public School() {
 		this.SFname = sFname;
 		this.Address = address;
 		this.Spassword = spassword;
+	}*/
+	public School() {
+		
 	}
 	
 	public String getSname() {
@@ -47,10 +50,10 @@ public School() {
 	public void setAddress(String address) {
 		Address = address;
 	}
-	public String getSpassword() {
+	public long getSpassword() {
 		return Spassword;
 	}
-	public void setSpassword(String spassword) {
+	public void setSpassword(long spassword) {
 		Spassword = spassword;
 	}
 	@Override
